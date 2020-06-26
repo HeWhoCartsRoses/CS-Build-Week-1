@@ -67,8 +67,10 @@ def update(frameNum, img, grid, N):
 
 
 def main():
-    # honestly, no fucking clue what this does
-    # this shows the codes stuff. do not actually need
+    # this shows the codes stuff. do not need
+    # if going to be used in react
+    # wont be used in react. instead will be used to show another way of doing it
+
     parser = argparse.ArgumentParser(
         description="Runs Conway's Game of Life simulation.")
     parser.add_argument('--grid-size', dest='N', required=False)
