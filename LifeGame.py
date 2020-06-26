@@ -161,3 +161,6 @@ class LifeGame:
                 self.draw_grid()
 
             clock.tick(self.max_fps)
+
+
+LifeGame().run()
