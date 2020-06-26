@@ -5,7 +5,7 @@ import pygame
 
 class LifeGame:
 
-    def __init__(self, screen_width=800, screen_height=600, cell_size=10, alive_color=(0, 255, 255),
+    def __init__(self, screen_width=800, screen_height=600, cell_size=10, alive_color=(0, 128, 0),
                  dead_color=(0, 0, 0), max_fps=10):
         # inits the game
         pygame.init()
